@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Student Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Edit Student Profile</h1>
+        <form id="edit-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="age"><br>
+            <label for="university">University:</label>
+            <input type="text" id="university" name="university"><br>
+            <label for="education-history">Educational History (comma separated):</label>
+            <input type="text" id="education-history" name="education-history"><br>
+            <label for="courses">Enrolled Courses (comma separated):</label>
+            <input type="text" id="courses" name="courses"><br>
+            <button type="submit">Save</button>
+        </form>
+        <button onclick="window.location.href='index.html'">Cancel</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
